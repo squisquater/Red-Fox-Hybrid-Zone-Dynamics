@@ -17,6 +17,7 @@ Hybrid Zone Dynamics of Sacramento Valley red fox and a nonnative conspecific po
 ## **Data Processing**
 * Demultiplexed [demux.sh]() 
 * Trim reads [trim.sh]()
+* Merge Duplicate Runs [merge_dup.sh]()
 
 ## Alignment & Initial SNP Calling
 * Align to reference [align.sh]()
