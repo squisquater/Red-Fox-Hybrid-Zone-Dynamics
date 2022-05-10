@@ -1,6 +1,7 @@
 # Red-Fox-Hybrid-Zone-Dynamics
 Maintenance of a narrow hybrid zone between native and introduced red foxes despite conspecificity and high dispersal capabilities 
 
+<img align="center" src="/SVRF1.png" width="1000">
 
 ## **Sample Info**
 * [SampleList.md]
