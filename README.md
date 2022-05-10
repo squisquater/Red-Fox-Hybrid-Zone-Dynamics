@@ -1,5 +1,6 @@
 # Red-Fox-Hybrid-Zone-Dynamics
-Hybrid Zone Dynamics of Sacramento Valley red fox and a nonnative conspecific population
+Maintenance of a narrow hybrid zone between native and introduced red foxes despite conspecificity and high dispersal capabilities 
+
 
 ## **Sample Info**
 * [SampleList.md]
