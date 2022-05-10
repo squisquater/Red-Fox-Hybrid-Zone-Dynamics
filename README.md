@@ -6,15 +6,8 @@
 ## **Sample Info**
 * [SampleList.md]
 
-## Raw data location on Dingo
-* Run1:
-  * InfoFile:
-* Run2:
-  * InfoFile:
-* Run3:
-  * InfoFile:
-* Run4:
-  * InfoFile:
+## Raw data location 
+* link to data repository once uploaded
 
 ## **Data Processing**
 * Demultiplexed [demux.sh]() 
