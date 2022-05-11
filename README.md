@@ -10,8 +10,8 @@
 * link to data repository once uploaded
 
 ## **Data Processing**
-* Demultiplexed [demux.sh]() 
-* Trim reads [trim.sh]()
+* Demultiplexed [demux.sh](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/Data-Processing/demux.sh) 
+* Trim reads [trim.sh](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/Data-Processing/trim.sh)
 * Merge Duplicate Runs [merge_dup.sh]()
 
 ## Alignment & Initial SNP Calling
