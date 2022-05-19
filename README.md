@@ -15,7 +15,7 @@
 * Merge Duplicate Runs [merge_dup.sh](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/01.Data-Processing/merge_dup.sh)
 
 ## 02. Alignment & Initial SNP Calling
-* Align to reference [align.sh]()
+* Align to reference [align.sh](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/02.Alignment-SNPcalling/align.sh)
 * Stacks reference map SNP pipeline [refmap_PL_redfox.sh]()
 * Run populations on output of above refmap pipeline []()
 
