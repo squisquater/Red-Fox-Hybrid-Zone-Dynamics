@@ -1,3 +1,8 @@
+### Run this script using the following command 
+### 'sbatch align.sh bamlist.txt refgenome.fa' 
+### with file paths leading to each item.
+### In this case I used the vv2.4.pub.fa ref genome
+
 #!/bin/bash
 #SBATCH -t 10:00:00
 #SBATCH -p med
