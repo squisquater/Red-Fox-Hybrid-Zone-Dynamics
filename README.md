@@ -12,7 +12,7 @@
 ## **01. Data Processing**
 * Demultiplexed [demux.sh](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/01.Data-Processing/demux.sh) 
 * Trim reads [trim.sh](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/01.Data-Processing/trim.sh)
-* Merge Duplicate Runs [merge_dup.sh]()
+* Merge Duplicate Runs [merge_dup.sh](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/01.Data-Processing/merge_dup.sh)
 
 ## 02. Alignment & Initial SNP Calling
 * Align to reference [align.sh]()
