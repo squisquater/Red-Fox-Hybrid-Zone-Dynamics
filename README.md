@@ -22,3 +22,10 @@
 ## 03. Initial SNP filtering
 You can check out details on the Stacks populations filters [here]( http://catchenlab.life.illinois.edu/stacks/comp/populations.php) 
 
+## 04. Sex-Biased Dispersal Patterns
+
+## 05. Geographic Ancestry Patterns
+
+## 06. Geographic Cline
+
+## 07. Genomic Cline
