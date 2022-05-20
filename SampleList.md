@@ -1,3 +1,5 @@
+Information for red fox DNA samples from the California Lowlands used in this study, including geographic range delineation, year collected, and markers amplified or sequenced. For additional information (spatial coordinates, museum accession numbers, citations for use in previous studies, etc.) see TableS1 in associated manuscript.
+
 | SampleID   | Region            | Year      | mtDNA-hap | mtDNA-anc   | GBS-seq | GBS-success |
 | ---------- | ----------------- | --------- | --------- | ----------- | ------- | ----------- |
 | acvc-98-02 | Nonnative         | 1998      | N-7       | nonnative   | No      | No          |
