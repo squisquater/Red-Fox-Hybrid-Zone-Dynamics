@@ -4,7 +4,7 @@
 <img align="center" src="/SVRF1.png" width="1000">
 
 ## **Sample Info**
-* [SampleList.md]
+* [SampleList.md](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/SampleList.md)
 
 ## Raw data location 
 * link to data repository once uploaded
