@@ -17,7 +17,7 @@
 ## 02. Alignment & Initial SNP Calling
 * Align to reference [align.sh](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/02.Alignment-SNPcalling/align.sh)
 * Stacks reference map SNP pipeline [refmap_PL_redfox.sh](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/02.Alignment-SNPcalling/refmap_PL_redfox.sh)
-* Run populations on output of above refmap pipeline []()
+* Run populations on output of above refmap pipeline [poprun_redfox.sh]()
 
 ## 03. Initial SNP filtering
 You can check out details on the Stacks populations filters [here]( http://catchenlab.life.illinois.edu/stacks/comp/populations.php) 
