@@ -1,4 +1,4 @@
-README
+# Geographic Cline Analysis
 
 * Simulate gene flow of maternally inherited mtDNA across the landscape [SimulatedGeneFlow_mtDNA.R]
   * Assumes sex-biased dispersal
