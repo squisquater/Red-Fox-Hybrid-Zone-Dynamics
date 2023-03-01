@@ -31,7 +31,12 @@ You can check out details on the Stacks populations filters [here]( http://catch
 * See Preckler-Quisquater 2022
 
 ## 05. Geographic Ancestry Patterns
+* MDS Plot
+* Admixture (K=1-5)
 
 ## 06. Geographic Cline
+* Simulate genotypes using HZAM
+* Generate cline widths for simulated and empical data using HZAR
 
 ## 07. Genomic Cline
+* Bayesian Genomic Cline
