@@ -16,7 +16,7 @@
 
 ## Observed Cline Width (using empirical data)
 
-* Generate summary tables of the empirircal data for use in HZAR cline models [EmpiricalData_SummaryTables.R](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Geographic-Cline/EmpiricalData_SummaryTables.R)
+* Generate summary tables of the empirical data for use in HZAR cline models [EmpiricalData_SummaryTables.R](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Geographic-Cline/EmpiricalData_SummaryTables.R)
 
   * [ObservedClineWidth_nuDNA.R]
   * [ObservedClineWidth_mtDNA.R]
