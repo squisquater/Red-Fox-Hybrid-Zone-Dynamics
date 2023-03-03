@@ -7,7 +7,7 @@ setwd("~/Desktop/RedFox-SVNN-Manuscript/HZAR")
 ##mtDNA####
 ###########
 
-mtDNA_emp <- read.csv("GeogClineData-mtDNA-20230303.csv", header=T, stringsAsFactors=F)
+mtDNA_emp <- read.csv("GeogClineData-mtDNA.csv", header=T, stringsAsFactors=F)
 
 
 ### Need to add a new column to the matrix that assigns a location bin to the data ###
@@ -44,7 +44,7 @@ sapply(unique(LocIDs),function(x){length(p[which(LocIDs %in% x)])},USE.NAMES=F) 
 ## Create data frame for input into Hzar
 data.frame(LocIDs=unique(LocIDs),dists,means,vars,counts) -> m
 
-write.table(m, file="mtDNA-summary-20230303.txt")
+write.table(m, file="mtDNA-summary.txt")
 
 plot(m$LocIDs,m$means)
 
@@ -63,7 +63,7 @@ p
 
 ### Need to add a new column to the matrix that assigns a location bin to the data ###
 
-Nuclear <- read.csv("GeogClineData-nuDNA-20230301.csv", header=T, stringsAsFactors=F)
+Nuclear <- read.csv("GeogClineData-nuDNA.csv", header=T, stringsAsFactors=F)
 Nuclear$LocSummary <- findInterval(Nuclear$ScaledClineLocation, c(0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95, 1), rightmost.closed = TRUE)  
 
 ##quick plot
@@ -77,7 +77,7 @@ LocIDs <- Nuclear$LocSummary
 p <- Nuclear$NativeAncestry
 
 #Read in distances of "sampling locations"
-d <- read.csv("GeogCline-SamplingIntervals-nuDNA-20230303.csv", header=T, stringsAsFactors=F)
+d <- read.csv("GeogCline-SamplingIntervals-nuDNA.csv", header=T, stringsAsFactors=F)
 
 ## Output vector of distances
 d$distance -> dists
@@ -97,7 +97,7 @@ data.frame(LocIDs=unique(LocIDs),dists,means,vars,counts) -> m
 
 m
 
-write.table(m, file="nuDNA-summary-20230301.txt")
+write.table(m, file="nuDNA-summary.txt")
 
 plot(m$LocIDs,m$means)
 
