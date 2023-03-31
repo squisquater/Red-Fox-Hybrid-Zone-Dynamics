@@ -16,7 +16,7 @@
 #SBATCH -p med
 
 # setting the max time
-#SBATCH -t 1:00:00
+#SBATCH -t 2:00:00
 
 # mail alerts at beginning and end of job
 #SBATCH --mail-type=BEGIN
