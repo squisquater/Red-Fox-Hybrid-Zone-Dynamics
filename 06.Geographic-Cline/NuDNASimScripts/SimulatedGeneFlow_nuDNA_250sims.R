@@ -41,7 +41,7 @@ library(ggplot2)
 
 # option to run a bunch of simulations consecutively
 
-run_set_name <- "NuDNA_100loci_SBD_44.9_7.84_18gens_NewHZBorder_20230330_150sims"  # provide a name for this set of runs, which will be in the filenames
+run_set_name <- "NuDNA_100loci_SBD_44.9_7.84_18gens_NewHZBorder_20230330_250sims"  # provide a name for this set of runs, which will be in the filenames
 
 # maximum fitness of maximal heterozygote compared to pure forms
 hybrid_fitness_set <- c(1)   # for just one run, just put one number in this and next line
@@ -162,7 +162,7 @@ Big_matrix_M <- matrix(nrow = 0, ncol = 1 + beginning_columns + 2*neutral_loci)
 ## Loop throught the different simulation sets:
 ###############################################
 ###############################################
-for (i in 150) {
+for (i in 250) {
   
   for (hybrid_fitness_case in 1:length(hybrid_fitness_set)) {
     for (pref_ratio_case in 1:length(pref_ratio_set)) {
@@ -703,7 +703,7 @@ p <- ggplot(m, aes(x=LocIDs, y=means, ymin=0, ymax=1)) +
   geom_line() +
   geom_errorbar(aes(ymin=means-vars, ymax=means+vars))
 
-#ggsave("NuDNA_100loci_SBD_44.9_7.84_18gens_NewHZBorder_20230330_150sims.pdf", plot = p, width = 5, height = 5)
+#ggsave("NuDNA_100loci_SBD_44.9_7.84_18gens_NewHZBorder_20230330_250sims.pdf", plot = p, width = 5, height = 5)
 #############################################
 #############################################
 #############################################
