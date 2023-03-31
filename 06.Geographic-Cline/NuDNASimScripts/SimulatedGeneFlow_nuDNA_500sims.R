@@ -162,7 +162,7 @@ Big_matrix_M <- matrix(nrow = 0, ncol = 1 + beginning_columns + 2*neutral_loci)
 ## Loop throught the different simulation sets:
 ###############################################
 ###############################################
-for (i in 500) {
+for (i in 1:500) {
   
   for (hybrid_fitness_case in 1:length(hybrid_fitness_set)) {
     for (pref_ratio_case in 1:length(pref_ratio_set)) {
