@@ -1,4 +1,4 @@
-Information for red fox DNA samples from the California Lowlands used in this study, including geographic range delineation, year collected, and markers amplified or sequenced. For additional information (spatial coordinates, museum accession numbers, citations for use in previous studies, etc.) see TableS1 in associated manuscript.
+Information for red fox DNA samples (n = 682) from the California Lowlands used in this study, including geographic range delineation, year collected, and markers amplified or sequenced. For additional information (spatial coordinates, museum accession numbers, citations for use in previous studies, etc.) see TableS1 in associated manuscript.
 
 | SampleID   | Region            | Year      | mtDNA-hap | mtDNA-anc   | GBS-seq | GBS-success |
 | ---------- | ----------------- | --------- | --------- | ----------- | ------- | ----------- |
@@ -58,7 +58,6 @@ Information for red fox DNA samples from the California Lowlands used in this st
 | FRE        | Nonnative         | 2003      | G-38      | nonnative   | Yes     | No          |
 | FRO        | Nonnative         | 2003      | O-26      | nonnative   | No      | No          |
 | FUL        | Nonnative         | 2003      | O-26      | nonnative   | No      | No          |
-| H-1        | Sacramento Valley | 1986      | NA        | NA          | No      | No          |
 | LA1        | Nonnative         | 1988      | F-12      | nonnative   | Yes     | No          |
 | LA4        | Nonnative         | 1990      | F-9       | nonnative   | No      | No          |
 | LA5        | Nonnative         | 2002      | F-12      | nonnative   | Yes     | Yes         |
@@ -139,13 +138,11 @@ Information for red fox DNA samples from the California Lowlands used in this st
 | S08-0455   | Nonnative         | 2008      | G-38      | nonnative   | No      | No          |
 | S08-0511   | Sacramento Valley | 2008      | D-19      | native SVRF | Yes     | Yes         |
 | S08-0534   | Sacramento Valley | 2008      | D-19      | native SVRF | No      | No          |
-| S08-0535   | Sacramento Valley | 2008      | Fail      | NA          | Yes     | Yes         |
 | S08-0752   | Sacramento Valley | 2008      | D-19      | native SVRF | No      | No          |
 | S08-0761   | Sacramento Valley | 2008      | D-19      | native SVRF | No      | No          |
 | S08-0763   | Sacramento Valley | 2008      | D-19      | native SVRF | Yes     | Yes         |
 | S08-0765   | Sacramento Valley | 2008      | D-19      | native SVRF | Yes     | Yes         |
 | S09-0024   | Sacramento Valley | 2009      | D-19      | native SVRF | No      | No          |
-| S09-0032   | Sacramento Valley | 2009      | NA        | NA          | No      | No          |
 | S09-0034   | Sacramento Valley | 2009      | D-19      | native SVRF | No      | No          |
 | S09-0042   | Sacramento Valley | 2009      | D-19      | native SVRF | No      | No          |
 | S09-0102   | Sacramento Valley | 2009      | D-19      | native SVRF | No      | No          |
@@ -243,8 +240,6 @@ Information for red fox DNA samples from the California Lowlands used in this st
 | S10-0483   | Sacramento Valley | 2010      | D-19      | native SVRF | No      | No          |
 | S10-0509   | Sacramento Valley | 2010      | D-19      | native SVRF | No      | No          |
 | S10-0513   | Nonnative         | 2010      | F-12      | nonnative   | Yes     | Yes         |
-| S10-0514   | Sacramento Valley | 2010      | NA        | NA          | No      | No          |
-| S10-0515   | Sacramento Valley | 2010      | NA        | NA          | No      | No          |
 | S10-0561   | Nonnative         | 2007      | G-38      | nonnative   | No      | No          |
 | S10-0562   | Nonnative         | 2007      | O-26      | nonnative   | Yes     | Yes         |
 | S10-0563   | Nonnative         | 2007      | G-38      | nonnative   | No      | No          |
@@ -278,7 +273,6 @@ Information for red fox DNA samples from the California Lowlands used in this st
 | S12-0286   | Sacramento Valley | 2012      | F-14      | nonnative   | Yes     | Yes         |
 | S12-0677   | Sacramento Valley | 2012      | D-19      | native SVRF | No      | No          |
 | S12-0817   | Sacramento Valley | 2012      | D-19      | native SVRF | No      | No          |
-| S12-1447   | Sacramento Valley | 2012      | NA        | NA          | No      | No          |
 | S13-0062   | Sacramento Valley | 2013      | D-19      | native SVRF | Yes     | Yes         |
 | S13-0338   | Sacramento Valley | 2013      | D-19      | native SVRF | No      | No          |
 | S13-0612   | Nonnative         | 2013      | G-38      | nonnative   | Yes     | Yes         |
@@ -364,7 +358,6 @@ Information for red fox DNA samples from the California Lowlands used in this st
 | S14-2255   | Sacramento Valley | 2014      | D-19      | native SVRF | No      | No          |
 | S14-2256   | Sacramento Valley | 2014      | D-19      | native SVRF | No      | No          |
 | S14-2257   | Sacramento Valley | 2014      | F         | nonnative   | No      | No          |
-| S14-2565   | Nonnative         | 2014      | NA        | NA          | Yes     | No          |
 | S14-2908   | Sacramento Valley | 2014      | D-19      | native SVRF | Yes     | Yes         |
 | S14-2922   | Sacramento Valley | 2014      | D-19      | native SVRF | Yes     | No          |
 | S15-0002   | Sacramento Valley | 2014      | D-19      | native SVRF | Yes     | Yes         |
