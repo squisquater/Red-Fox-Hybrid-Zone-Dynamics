@@ -41,7 +41,7 @@ library(ggplot2)
 
 # option to run a bunch of simulations consecutively
 
-run_set_name <- "NuDNA_SBD_Disp100%_18gens_20240410_100sims"  # provide a name for this set of runs, which will be in the filenames
+run_set_name <- "NuDNA_SBD_18gens_100sims"  # provide a name for this set of runs, which will be in the filenames
 
 # maximum fitness of maximal heterozygote compared to pure forms
 hybrid_fitness_set <- c(1)   # for just one run, just put one number in this and next line
