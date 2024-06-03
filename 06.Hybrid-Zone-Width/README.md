@@ -19,10 +19,11 @@ In order to run this you will also need:
 
 ## Observed Cline Width (using empirical data)
 In order to run this you will need:
-* The empirical cline data for mtDNA: [GeogClineData-mtDNA.csv]()
-* The empirical cline data for nuDNA: [GeogClineData-nuDNA.csv]()
+* The empirical cline data for mtDNA: [GeogClineData-mtDNA.csv](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Hybrid-Zone-Width/GeogClineData-mtDNA.csv)
+* The empirical cline data for nuDNA: [GeogClineData-nuDNA.csv](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Hybrid-Zone-Width/GeogClineData-nuDNA.csv)
+* Sampling Intervals for [mtDNA](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Hybrid-Zone-Width/GeogCline-SamplingIntervals-mtDNA.csv) and [nuDNA](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Hybrid-Zone-Width/GeogCline-SamplingIntervals-nuDNA.csv)
 
-01. Generate summary tables of the empirical data for use in HZAR cline models [EmpiricalData_SummaryTables.R](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Geographic-Cline/EmpiricalData_SummaryTables.R)
+01. Generate summary tables of the empirical data for use in HZAR cline models [EmpiricalData_SummaryTables.R](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Hybrid-Zone-Width/EmpiricalData_SummaryTables.R)
 
 3. Estimate cline widths for both mtDNA and nuDNA using HZAR (empirical data)
- * [ObservedClineWidths.R]()
+ * [ObservedClineWidths.R](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Hybrid-Zone-Width/ObservedClineWidths.R)
