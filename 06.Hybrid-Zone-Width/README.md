@@ -16,8 +16,8 @@ In order to run this you will also need:
   * Assumes 18 generations (conservative estimate) of gene flow post contact
   
 03. Estimate cline widths for both mtDNA and nuDNA using HZAR (simulated data)
-  * [SimulatedClineWidth_nuDNA.R]
-  * [SimulatedClineWidth_mtDNA.R]
+  * [SimulatedClineWidth_nuDNA.R]()
+  * [SimulatedClineWidth_mtDNA.R]()
 
 ## Observed Cline Width (using empirical data)
 
