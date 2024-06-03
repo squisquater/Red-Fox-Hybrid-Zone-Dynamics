@@ -8,7 +8,7 @@ In order to run this you will also need the locations file [HZAM_HZAR_location_d
   * Assumes sex-biased dispersal
   * Assumes 18 generations (conservative estimate) of gene flow post contact
   
-* Simulate gene flow of biparentally inhertied nuDNA across the landscape using HZAM [SimulatedGeneFlow_nuDNA_Disp100%_100sims.R]()
+* Simulate gene flow of biparentally inhertied nuDNA across the landscape using HZAM [SimulatedGeneFlow_nuDNA_Disp100%_100sims.R](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Hybrid-Zone-Width/SimulatedGeneFlow_nuDNA_Disp100%25_100sims.R)
   * Assumes sex-biased dispersal
   * Assumes 18 generations (conservative estimate) of gene flow post contact
   
