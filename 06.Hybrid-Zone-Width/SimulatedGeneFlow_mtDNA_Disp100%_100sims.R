@@ -40,7 +40,7 @@ library(ggplot2)
 
 # option to run a bunch of simulations consecutively
 
-run_set_name <- "MtDNA_SBD_Disp100%_18gens_20240410_1000sims"  # provide a name for this set of runs, which will be in the filenames
+run_set_name <- "mtDNA_SBD_18gens_100sims"  # provide a name for this set of runs, which will be in the filenames
 
 # maximum fitness of maximal heterozygote compared to pure forms
 hybrid_fitness_set <- c(1)   # for just one run, just put one number in this and next line
@@ -189,7 +189,7 @@ Big_matrix_M <- matrix(nrow = 0, ncol = 1 + beginning_columns + 2*neutral_loci)
 ## Loop throught the different simulation sets:
 ###############################################
 ###############################################
-for (i in 1:1000) {
+for (i in 1:100) {
   for (hybrid_fitness_case in 1:length(hybrid_fitness_set)) {
     for (pref_ratio_case in 1:length(pref_ratio_set)) {
       hybrid_fitness <- hybrid_fitness_set[hybrid_fitness_case]
@@ -726,7 +726,7 @@ p <- ggplot(m, aes(x=LocIDs, y=means)) +
 
 p  
 
-ggsave("HZAM_HZAR_mtDNA_plot_Disp100%_1000sims.png", plot = p, device = "png", width = 6, height = 4, units = "in", dpi = 300)
+ggsave("HZAM_HZAR_mtDNA_plot_Disp100%_100sims.png", plot = p, device = "png", width = 6, height = 4, units = "in", dpi = 300)
 
 #############################################
 #############################################
