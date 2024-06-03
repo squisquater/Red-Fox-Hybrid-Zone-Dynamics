@@ -24,4 +24,4 @@ In order to run this you will also need:
 01. Generate summary tables of the empirical data for use in HZAR cline models [EmpiricalData_SummaryTables.R](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Geographic-Cline/EmpiricalData_SummaryTables.R)
 
 02. Estimate cline widths for both mtDNA and nuDNA using HZAR (empirical data)
- * [ObservedClineWidths.R])()
+ * [ObservedClineWidths.R]()
