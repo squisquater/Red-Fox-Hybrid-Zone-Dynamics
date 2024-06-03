@@ -30,14 +30,14 @@ The raw GBS sequencing data associated with this study can be found in the NCBI 
 **PRJNA1069152** : Reduced-representation genotyping-by-sequencing of low-elevation red foxes in California
 
 ## **01. Data Processing**
-* Demultiplexed [demux.sh](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/01.Data-Processing/demux.sh) 
+* Demultiplex Data [demux.sh](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/01.Data-Processing/demux.sh) 
 * Trim reads [trim.sh](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/01.Data-Processing/trim.sh)
 * Merge Duplicate Runs [merge_dup.sh](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/01.Data-Processing/merge_dup.sh)
 
 ## 02. Alignment & Initial SNP Calling
 * Align to reference [align.sh](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/02.Alignment-SNPcalling/align.sh)
 * Stacks reference map SNP pipeline [refmap_PL_redfox.sh](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/02.Alignment-SNPcalling/refmap_PL_redfox.sh)
-* Run populations on output of above refmap pipeline [poprun_redfox.sh]()
+* Run populations on output of above refmap pipeline [poprun_redfox.sh](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/02.Alignment-SNPcalling/poprun_redfox.sh)
 
 ## 03. Data filtering
 You can check out details on the Stacks populations filters [here]( http://catchenlab.life.illinois.edu/stacks/comp/populations.php) 
@@ -48,16 +48,37 @@ You can check out details on the Stacks populations filters [here]( http://catch
   * Again remove lower quality individuals (>20% of SNPs missing) using a threshold based approach [plinkfilter_mind0.2.sh](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/03.SNP-filtering/plinkfilter_mind0.2.sh)
 
 ## 05. Geographic Patterns of Ancestry
+See [README.md](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/tree/main/05.Geographic-Ancestry-Patterns)
 * MDS Plot
 * Admixture (K=1-5)
 
 ## 06. Width of the Hybrid Zone
-* Simulate genotypes using HZAM
-  * Nuclear DNA -> [NuDNASimulatedCline.R]()
-  * Mitochondrial DNA -> [MtDNASimulatedCline.R]()
-* Generate cline widths for simulated and empical data using HZAR
-  * Simulated Cline Widths
-  * Empirical Cline Widths
+### Expected Cline Width (assuming neutral gene glow)
+
+In order to run this you will also need:
+* The locations file [HZAM_HZAR_location_distances.csv](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Hybrid-Zone-Width/HZAM_HZAR_location_distances.csv).
+
+01. Simulate gene flow of maternally inherited mtDNA across the landscape using HZAM [SimulatedGeneFlow_mtDNA_Disp100%_100sims.R](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Hybrid-Zone-Width/SimulatedGeneFlow_mtDNA_Disp100%25_100sims.R)
+  * Assumes sex-biased dispersal
+  * Assumes 18 generations (conservative estimate) of gene flow post contact
+  
+02. Simulate gene flow of biparentally inhertied nuDNA across the landscape using HZAM [SimulatedGeneFlow_nuDNA_Disp100%_100sims.R](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Hybrid-Zone-Width/SimulatedGeneFlow_nuDNA_Disp100%25_100sims.R)
+  * Assumes sex-biased dispersal
+  * Assumes 18 generations (conservative estimate) of gene flow post contact
+  
+03. Estimate cline widths for both mtDNA and nuDNA using HZAR (simulated data)
+  * [SimulatedClineWidths.R](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Hybrid-Zone-Width/SimulatedClineWidths.R)
+
+### Observed Cline Width (using empirical data)
+In order to run this you will need:
+* The empirical cline data for mtDNA: [GeogClineData-mtDNA.csv](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Hybrid-Zone-Width/GeogClineData-mtDNA.csv)
+* The empirical cline data for nuDNA: [GeogClineData-nuDNA.csv](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Hybrid-Zone-Width/GeogClineData-nuDNA.csv)
+* Sampling Intervals for [mtDNA](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Hybrid-Zone-Width/GeogCline-SamplingIntervals-mtDNA.csv) and [nuDNA](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Hybrid-Zone-Width/GeogCline-SamplingIntervals-nuDNA.csv)
+
+01. Generate summary tables of the empirical data for use in HZAR cline models [EmpiricalData_SummaryTables.R](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Hybrid-Zone-Width/EmpiricalData_SummaryTables.R)
+
+3. Estimate cline widths for both mtDNA and nuDNA using HZAR (empirical data)
+ * [ObservedClineWidths.R](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Hybrid-Zone-Width/ObservedClineWidths.R)
 
 ## 07. Genomic Cline Analysis
-* Bayesian Genomic Cline
+* Bayesian Genomic Cline - See [README.md](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/tree/main/07.Genomic-Cline)
