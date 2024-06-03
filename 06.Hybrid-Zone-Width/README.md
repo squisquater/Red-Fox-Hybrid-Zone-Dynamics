@@ -7,20 +7,21 @@ In order to run this you will also need:
 * The empirical cline data for mtDNA: [GeogClineData-mtDNA.csv]()
 * The empirical cline data for nuDNA: [GeogClineData-nuDNA.csv]()
 
-* Simulate gene flow of maternally inherited mtDNA across the landscape using HZAM [SimulatedGeneFlow_mtDNA_Disp100%_100sims.R](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Hybrid-Zone-Width/SimulatedGeneFlow_mtDNA_Disp100%25_100sims.R)
+01.Simulate gene flow of maternally inherited mtDNA across the landscape using HZAM [SimulatedGeneFlow_mtDNA_Disp100%_100sims.R](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Hybrid-Zone-Width/SimulatedGeneFlow_mtDNA_Disp100%25_100sims.R)
   * Assumes sex-biased dispersal
   * Assumes 18 generations (conservative estimate) of gene flow post contact
   
-* Simulate gene flow of biparentally inhertied nuDNA across the landscape using HZAM [SimulatedGeneFlow_nuDNA_Disp100%_100sims.R](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Hybrid-Zone-Width/SimulatedGeneFlow_nuDNA_Disp100%25_100sims.R)
+02.Simulate gene flow of biparentally inhertied nuDNA across the landscape using HZAM [SimulatedGeneFlow_nuDNA_Disp100%_100sims.R](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Hybrid-Zone-Width/SimulatedGeneFlow_nuDNA_Disp100%25_100sims.R)
   * Assumes sex-biased dispersal
   * Assumes 18 generations (conservative estimate) of gene flow post contact
   
-* Estimate cline width using HZAR (simulated data)
+03. Estimate cline widths for both mtDNA and nuDNA using HZAR (simulated data)
   * [SimulatedClineWidth_nuDNA.R]
   * [SimulatedClineWidth_mtDNA.R]
 
 ## Observed Cline Width (using empirical data)
 
-* Generate summary tables of the empirical data for use in HZAR cline models [EmpiricalData_SummaryTables.R](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Geographic-Cline/EmpiricalData_SummaryTables.R)
+01. Generate summary tables of the empirical data for use in HZAR cline models [EmpiricalData_SummaryTables.R](https://github.com/squisquater/Red-Fox-Hybrid-Zone-Dynamics/blob/main/06.Geographic-Cline/EmpiricalData_SummaryTables.R)
 
-  * [ObservedClineWidths.R])()
+02. Estimate cline widths for both mtDNA and nuDNA using HZAR (empirical data)
+ * [ObservedClineWidths.R])()
