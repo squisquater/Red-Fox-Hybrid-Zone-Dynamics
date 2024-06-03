@@ -7,7 +7,7 @@ library('hzar')
 
 setwd("C:/Users/Sophie/Desktop/HZAR/SimulatedClineWidths")
 
-mtDNA <- read.table("mtDNA-summary-nocotton.txt", header=T, stringsAsFactors=F) 
+mtDNA <- read.table("mtDNA_SBD_18gens_100sims.txt", header=T, stringsAsFactors=F) 
 
 setwd("C:/Users/Sophie/Desktop/HZAR/")
 
@@ -179,9 +179,6 @@ dev.off()
 #############################
 #############################
 #############################
-
-nuDNA <- read.table("nuDNA-summary-noCotton.txt", header=T, stringsAsFactors=F) 
-
 
 nuDNA <- read.table("NuDNA_SBD_18gens_100sims.txt", header=T, stringsAsFactors=F)
 
