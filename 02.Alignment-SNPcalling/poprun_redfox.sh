@@ -12,6 +12,8 @@ populations -P $IN_FILEPATH -O $OUT_FILEPATH/outputfilename
 --min-maf 0.01 --max-obs-het 0.60 --write-random-snp \
 --structure --vcf --plink --radpainter --genepop --treemix \
 
+### Note that you will want to add in the [--ordered-export] paramter to avoid double calling the same SNP from different stacks loci. 
+
 # -P filepath to output of the previous script (refmap_PL_redfox.sh)
 # -O path to and prefix for output filenames
 # --min-maf 0.01 > set a minimum minor allele frequency of 0.01
